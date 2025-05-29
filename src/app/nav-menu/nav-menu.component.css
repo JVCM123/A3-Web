@@ -1,0 +1,10 @@
+#wrapper-menu {
+    background-color: #521414;
+}
+.nav-link.active{
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
