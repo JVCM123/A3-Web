@@ -2,12 +2,11 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-lista-agendamentos',
+  selector: 'app-listar-clientes',
   imports: [RouterLink],
-  templateUrl: './lista-agendamentos.component.html',
+  templateUrl: './listar-clientes.component.html',
   styleUrls: ['../../app.component.css']
 })
-
-export class ListaAgendamentosComponent {
+export class ListarClientesComponent {
 
 }

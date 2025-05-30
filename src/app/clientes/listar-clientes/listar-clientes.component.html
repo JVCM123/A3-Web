@@ -1,0 +1,64 @@
+<div class="p-5 pt-0 text-center  rounded-3">
+
+    <div class="card">
+        <div class="card-body">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <h4>Clientes cadastrados:</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-end justify-content-end">
+                            <a [routerLink]="['/adicionar-cliente']" routerLinkActive="router-link-active"
+                                class="btn btn-vermelho-escuro">+ Adicionar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">Código</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">sobremome</th>
+                        <th scope="col">Telefone</th>
+                        <th scope="col">Email</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>João Vitor</td>
+                        <td>Celestino de Moura</td>
+                        <td>(11)99999-9999</td>
+                        <td>joao.moura&#64;ulife.com.br</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Gabriel</td>
+                        <td>Silva</td>
+                        <td>(11)99999-9999</td>
+                        <td>gabriel.silva&#64;ulife.com.br</td>
+                    </tr> <tr>
+                        <th scope="row">3</th>
+                        <td>Matheus</td>
+                        <td>Martins</td>
+                        <td>(11)99999-9999</td>
+                        <td>matheus.martins&#64;ulife.com.br</td>
+                    </tr> <tr>
+                        <th scope="row">4</th>
+                        <td>Gabriel</td>
+                        <td>Mancini</td>
+                        <td>(11)99999-9999</td>
+                        <td>gabriel.macini&#64;ulife.com.br</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
